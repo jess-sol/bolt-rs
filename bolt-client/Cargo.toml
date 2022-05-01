@@ -11,6 +11,7 @@ edition = "2021"
 
 [features]
 tokio-stream = ["pin-project", "tokio", "tokio-rustls", "webpki-roots"]
+serde = ["bolt-proto/serde"]
 
 [dependencies]
 bolt-client-macros = { path = "../bolt-client-macros", version = "0.3.0" }
